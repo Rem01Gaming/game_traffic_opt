@@ -73,8 +73,6 @@ select_interface() {
         echo -e "${ORANGE}Please select from the available interfaces!${NOCOLOR}"
         exit 1
     fi
-
-    export interface=$selected_interface
 }
 
 reset_network_optimizations() {
